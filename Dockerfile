@@ -1,5 +1,5 @@
 FROM alpine
-COPY application-code .
+#COPY application-code .
 RUN apk add php
 ENTRYPOINT ["php"]
 CMD ["-f","index.php","-S","0.0.0.0:8080"]
