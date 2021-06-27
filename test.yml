@@ -7,7 +7,7 @@ metadata:
 spec:
   containers:
   - name: mycontainer
-    image: docker.io/smaqsoodi/capstone-project-easypay:0.0.5
+    image: docker.io/smaqsoodi/devops-capstone-project:latest
     # Just spin & wait forever
     command: [ "/bin/bash", "-c", "--" ]
     args: [ "while true; do sleep 30; done;" ]
